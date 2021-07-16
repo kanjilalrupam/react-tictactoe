@@ -1,0 +1,31 @@
+body{
+  background-color: #C1CC99;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  font-size: 35px;
+  color: #6CAE75;
+}
+.carbackground{
+  background-color: #F5A65B !important;
+}
+.carbackgroundlogo{
+  color: #F5A65B !important;
+}
+.btn1{
+  background-color: #6CAE75;
+  color: #000;
+}
